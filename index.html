@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex container mx-auto">
+
+
+        <div class="first w-[10%] md:w-[70%] sticky top-0 h-screen">
+            <div class="logo invert my-4">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="m-auto w-9 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="sidebar flex justify-center md:justify-end">
+                <ul class="flex flex-col space-y-4 px-11 text-2xl font-bold">
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">home</span>
+                        <span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">search</span>
+                        <span class="hidden md:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">notifications</span>
+                        <span class="hidden md:block">Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">person_add</span>
+                        <span class="hidden md:block">Follow</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">mail</span>
+                        <span class="hidden md:block">Chat</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">
+                            workspace_premium
+                        </span>
+                        <span class="hidden md:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">groups</span>
+                        <span class="hidden md:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">person</span>
+                        <span class="hidden md:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-2.5  px-5 py-3 w-fit hover:bg-gray-800 hover:border-gray-800 hover:rounded-2xl hover:cursor-pointer">
+                        <span class="material-symbols-outlined">adjust</span>
+                        <span class="hidden md:block">More</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <div class="second w-[90%] md:w-full">
+            <div class="top flex p-3 relative border border-gray-700">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[20.5%] z-10"></div>
+                <div class="left w-1/2 flex justify-center text-lg font-bold">
+                    For You
+                </div>
+
+                <div class="right w-1/2 flex justify-center text-lg font-bold">
+                    Followings
+                </div>
+            </div>
+            <div class="whatis flex gap-4 px-3 border border-gray-700">
+                <img class="w-12 h-12 m-3 rounded-full shrink-0" src="/image1.jpg" alt="image">
+                <div class="w-full">
+                    <input class=" bg-black text-white text-xl outline-none my-5" type="text"
+                        placeholder="What is Happening?">
+                    <div>
+                        <div class="flex gap-1 text-blue-500 items-center my-2">
+                            <span class="material-symbols-outlined">
+                                public
+                            </span>
+                            <div class="text-s font-bold">Everyone can reply</div>
+                        </div>
+                    </div>
+                    <div class="h-0.5 w-full bg-gray-700"></div>
+                    <div class="flex justify-between my-3 w-full">
+                        <div class="logo flex gap-2 text-blue-500 items-center">
+                            <span class="material-symbols-outlined">
+                                photo
+                            </span>
+                            <span class="material-symbols-outlined">
+                                gif_box
+                            </span>
+                            <span class="material-symbols-outlined">
+                                planet
+                            </span>
+                            <span class="material-symbols-outlined">
+                                ballot
+                            </span>
+                            <span class="material-symbols-outlined">
+                                sentiment_satisfied
+                            </span>
+                            <span class="material-symbols-outlined">
+                                calendar_clock
+                            </span>
+                            <span class="material-symbols-outlined">
+                                add_location
+                            </span>
+                        </div>
+                        <button class="bg-gray-700 text-black px-5 py-2 cursor-pointer rounded-full font-bold text-sm
+                                  transition duration-200
+                                 active:scale-95">
+                            Post
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="posts">
+                <div class="post border border-gray-700">
+                    <div class="flex min-w-0">
+                        <div class="image m-4 shrink-0">
+                            <img class="w-12 h-12 rounded-full object-cover" src="/image1.jpg" alt="image">
+                        </div>
+
+                        <div class="content ml-0 px-4 pl-0 flex-1 min-w-0">
+                            <span class="text-white text-lg hover:underline cursor-pointer font-bold">Formula 1</span>
+                            <span class="text-lg text-gray-500"> @kimi · 4h</span>
+
+                            <div class="text-white my-1">Cool Wallpaper</div>
+
+                            <div class="mt-3 rounded-xl overflow-hidden w-full my-2">
+                                <img src="https://pbs.twimg.com/media/G9-_raVbcAgWLuY?format=jpg&name=small" alt="Image"
+                                    class="w-full object-cover">
+                            </div>
+
+
+
+                            <div class="icons flex flex-wrap gap-y-2 justify-between text-gray-500 mx-3 my-3 text-sm">
+                                <div class="comment flex gap-1 hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer ">
+                                        chat_bubble
+                                    </span>
+                                    <div class="text-s">39</div>
+                                </div>
+                                <div class="repost flex gap-1 justify-center hover:text-green-400 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        repeat
+                                    </span>
+                                    <div class="text-s">302</div>
+                                </div>
+                                <div class="likes flex gap-1 justify-center hover:text-red-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        favorite
+                                    </span>
+                                    <div class="text-s">7.3k</div>
+                                </div>
+                                <div class="views flex gap-1 justify-center hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        bar_chart
+                                    </span>
+                                    <div class="text-s">238k</div>
+                                </div>
+                                <div class="corner flex gap-1 justify-end align-middle">
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        bookmark
+                                    </span>
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post border border-gray-700">
+                    <div class="flex min-w-0">
+                        <div class="image m-4 shrink-0">
+                            <img class="w-12 h-12 rounded-full object-cover" src="/image1.jpg" alt="image">
+                        </div>
+
+                        <div class="content ml-0 px-4 pl-0 flex-1 min-w-0">
+                            <span class="text-white text-lg hover:underline cursor-pointer font-bold">Formula 1</span>
+                            <span class="text-lg text-gray-500"> @kimi · 4h</span>
+
+                            <div class="text-white my-1">Cool Wallpaper</div>
+
+                            <div class="mt-3 rounded-xl overflow-hidden w-full my-2">
+                                <img src="https://pbs.twimg.com/media/G9-_raVbcAgWLuY?format=jpg&name=small" alt="Image"
+                                    class="w-full object-cover">
+                            </div>
+
+
+
+                            <div class="icons flex flex-wrap gap-y-2 justify-between text-gray-500 mx-3 my-3 text-sm">
+                                <div class="comment flex gap-1 hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer ">
+                                        chat_bubble
+                                    </span>
+                                    <div class="text-s">39</div>
+                                </div>
+                                <div class="repost flex gap-1 justify-center hover:text-green-400 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        repeat
+                                    </span>
+                                    <div class="text-s">302</div>
+                                </div>
+                                <div class="likes flex gap-1 justify-center hover:text-red-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        favorite
+                                    </span>
+                                    <div class="text-s">7.3k</div>
+                                </div>
+                                <div class="views flex gap-1 justify-center hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        bar_chart
+                                    </span>
+                                    <div class="text-s">238k</div>
+                                </div>
+                                <div class="corner flex gap-1 justify-end align-middle">
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        bookmark
+                                    </span>
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post border border-gray-700">
+                    <div class="flex min-w-0">
+                        <div class="image m-4 shrink-0">
+                            <img class="w-12 h-12 rounded-full object-cover" src="/image1.jpg" alt="image">
+                        </div>
+
+                        <div class="content ml-0 px-4 pl-0 flex-1 min-w-0">
+                            <span class="text-white text-lg hover:underline cursor-pointer font-bold">Formula 1</span>
+                            <span class="text-lg text-gray-500"> @kimi · 4h</span>
+
+                            <div class="text-white my-1">Cool Wallpaper</div>
+
+                            <div class="mt-3 rounded-xl overflow-hidden w-full my-2">
+                                <img src="https://pbs.twimg.com/media/G9-_raVbcAgWLuY?format=jpg&name=small" alt="Image"
+                                    class="w-full object-cover">
+                            </div>
+
+
+
+                            <div class="icons flex flex-wrap gap-y-2 justify-between text-gray-500 mx-3 my-3 text-sm">
+                                <div class="comment flex gap-1 hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer ">
+                                        chat_bubble
+                                    </span>
+                                    <div class="text-s">39</div>
+                                </div>
+                                <div class="repost flex gap-1 justify-center hover:text-green-400 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        repeat
+                                    </span>
+                                    <div class="text-s">302</div>
+                                </div>
+                                <div class="likes flex gap-1 justify-center hover:text-red-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        favorite
+                                    </span>
+                                    <div class="text-s">7.3k</div>
+                                </div>
+                                <div class="views flex gap-1 justify-center hover:text-blue-500 align-middle">
+                                    <span class="material-symbols-outlined cursor-pointer">
+                                        bar_chart
+                                    </span>
+                                    <div class="text-s">238k</div>
+                                </div>
+                                <div class="corner flex gap-1 justify-end align-middle">
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        bookmark
+                                    </span>
+                                    <span
+                                        class="material-symbols-outlined hover:text-blue-500 align-middle cursor-pointer">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="third w-full hidden md:block">
+            <div class="sizing m-3 w-1/2">
+
+                <div class="search mb-3">
+                    <input type="text" placeholder="Search"
+                        class="w-full border border-gray-900 py-2 rounded-2xl bg-gray-900">
+                </div>
+
+                <div class="whats bg-gray-950 border rounded-3xl border-gray-900 overflow-hidden">
+                    <h1 class="font-bold text-2xl w-full py-2 px-4">What's Happening</h1>
+
+                    <div class="item1 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">
+                        <div class="text-gray-600 text-s">Trending in India</div>
+                        <div class="text-l font-bold">#ManaShankarVaraPrasadGuru</div>
+                        <div class="text-gray-600 text-s">21.2k posts</div>
+                    </div>
+
+
+
+                    <div class="item2 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">
+                        <div class="text-gray-600 text-s">Business & Finance · Trending</div>
+                        <div class="text-l font-bold">Transition to a 5</div>
+                        <div class="text-gray-600 text-s">21.2k posts</div>
+                    </div>
+
+                    <div class="item3 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">
+                        <div class="text-gray-600 text-s">Business & Finance · Trending</div>
+                        <div class="text-l font-bold">#5DaysBankingNow</div>
+                        <div class="text-gray-600 text-s">253k posts</div>
+                    </div>
+
+                    <div class="item4 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">
+                        <div class="text-gray-600 text-s">Politics · Trending</div>
+                        <div class="text-l font-bold">#BJP</div>
+                        <div class="text-gray-600 text-s">2396 posts</div>
+                    </div>
+
+
+
+                    <div class="text-blue-600 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">Show More</div>
+                </div>
+
+
+                <div class="who bg-gray-950 border rounded-3xl border-gray-900 overflow-hidden">
+                    <div class="upper font-bold text-2xl w-full px-4 py-3">Who to Follow</div>
+                    <div class="lower flex justify-between px-4 py-3">
+                        <div class="left flex gap-4">
+                            <img class="w-10 h-10 border border-gray-900 rounded-full" src="/image.jpg"
+                                alt="User avatar">
+                            <div class="flex flex-col">
+                                <div class="font-bold text-s cursor-pointer">Dokja</div>
+                                <div class="text-s">KDJ</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div
+                                class="follow border-white border rounded-3xl cursor-pointer text-l text-black font-bold bg-white px-4 py-1.5">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lower flex justify-between px-4 py-3">
+                        <div class="left flex gap-4">
+                            <img class="w-10 h-10 border border-gray-900 rounded-full" src="/image1.jpg"
+                                alt="User avatar">
+                            <div class="flex flex-col">
+                                <div class="font-bold text-s cursor-pointer">Depression</div>
+                                <div class="text-s">Charles</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div
+                                class="follow border-white border rounded-3xl cursor-pointer text-l text-black font-bold bg-white px-4 py-1.5">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-blue-600 w-full hover:bg-gray-700 px-4 py-3 cursor-pointer">Show More</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
